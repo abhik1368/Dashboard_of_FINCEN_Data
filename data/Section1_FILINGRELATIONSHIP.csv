@@ -1,0 +1,14 @@
+RELATIONSHIP,2012,2013,2014
+Accountant,0,1,1
+Agent,52,456,1018
+Appraiser,0,1,2
+Attorney,0,0,392
+Borrower,0,5,27
+Customer,2288,26986,48550
+Director,0,0,3
+Employee,12,65,67
+No relationship to institution,6,345,453
+Officer,0,4,0
+Other,21,207,226
+Owner or Controlling Shareholder,0,15,21
+Unknown/Blank,181,2976,3104

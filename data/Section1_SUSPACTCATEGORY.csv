@@ -1,0 +1,65 @@
+SUSPICIOUS_ACTIVITY_CATEGORY,SUSPICIOUS_ACTIVITY_TYPE,2012,2013,2014
+Casinos,Inquiry about end of business day,10,59,103
+Casinos,Minimal gaming with large transactions,534,5694,9679
+Casinos,Other,195,4299,8811
+Casinos,Suspicious intra-casino funds transfers,2,63,217
+Casinos,Suspicious use of counter checks or markers,91,453,818
+Fraud,ACH,0,5,31
+Fraud,Business loan,0,0,1
+Fraud,Check,17,279,408
+Fraud,Consumer Loan,0,1,16
+Fraud,Credit/Debit Card,23,186,546
+Fraud,Healthcare,0,0,3
+Fraud,Mass-marking,0,2,2
+Fraud,Other,17,114,195
+Fraud,Wire transfer,0,49,8
+Identification Documentation,Changes spelling or arrangement of name,9,47,89
+Identification Documentation,Multiple individuals with same or similar identities,3,36,71
+Identification Documentation,Other,36,285,420
+Identification Documentation,Provided questionable or false documentation,101,858,1538
+Identification Documentation,Refused or avoided request for documentation,299,2898,4728
+Identification Documentation,Single individual with multiple identities,24,133,257
+Money Laundering,Exchanges small bills for large bills or vice versa,77,786,936
+Money Laundering,Other,41,460,1039
+Money Laundering,Suspicious EFT/wire transfers,10,1244,2157
+Money Laundering,Suspicion concerning the physical condition of funds,4,51,66
+Money Laundering,Suspicion concerning the source of funds,142,2168,4673
+Money Laundering,"Suspicious designation of beneficiaries, assignees or joint owners",1,67,120
+Money Laundering,Suspicious exchange of currencies,37,232,373
+Money Laundering,Suspicious receipt of government payments/benefits,,7,3
+Money Laundering,Suspicious use of multiple accounts,3,45,127
+Money Laundering,Suspicious use of noncash monetary instruments,26,645,1402
+Money Laundering,Suspicious use of third-party transactors (straw-man),13,60,149
+Money Laundering,Trade Based Money Laundering/Black Market Peso Exchange,0,4,4
+Money Laundering,Transaction out of pattern for customer(s),8,158,240
+Mortgage Fraud,Appraisal fraud,0,1,0
+Mortgage Fraud,Other,0,1,18
+Other Suspicious Activities,Account takeover,0,14,32
+Other Suspicious Activities,Bribery or gratuity,2,15,33
+Other Suspicious Activities,Counterfeit Instrument (other),71,517,616
+Other Suspicious Activities,Elder financial exploitation,3,9,9
+Other Suspicious Activities,Embezzlement/theft/disappearance of funds,4,106,91
+Other Suspicious Activities,Forgeries,1,30,80
+Other Suspicious Activities,Identity theft,4,80,191
+Other Suspicious Activities,"Little or no concern for product performance penalites, fees, or tax consequences",0,16,22
+Other Suspicious Activities,Misuse of position or self-dealing,0,19,14
+Other Suspicious Activities,Other,27,464,699
+Other Suspicious Activities,Suspected public/private corruption (domestic),0,54,60
+Other Suspicious Activities,Suspected public/private corruption (foreign),0,9,15
+Other Suspicious Activities,Suspicious use of informal value transfer system,0,4,8
+Other Suspicious Activities,Suspicious use of multiple locations,5,232,429
+Other Suspicious Activities,"Transaction with no apparent economic, business, or lawful purpose",74,1188,1823
+Other Suspicious Activities,Two or more individuals working together,191,1793,3636
+Other Suspicious Activities,Unauthorized electronic intrusion,0,3,13
+Other Suspicious Activities,Unlicensed or unregistered MSB,0,1,0
+Securities/Futures/Options,Market manipulation/wash trading,0,0,1
+Securities/Futures/Options,Misappropriation,0,1,1
+Structuring,Alters transaction to avoid BSA recordkeeping requirement,173,1087,1852
+Structuring,Alters transactions to avoid CTR requirement,346,5992,7137
+Structuring,Customer cancels transaction to avoid BSA reporting and recordkeeping requirements,96,1133,1297
+Structuring,Multiple transactions below BSA recordkeeping threshold,48,778,1117
+Structuring,Multiple transactions below CTR threshold,435,3378,5181
+Structuring,Other,341,3427,6259
+Structuring,Suspicious inquiry by customer regarding BSA reporting or recordkeeping requirements,49,419,561
+Terrorist Financing,Known or suspected terrorist/terrorist organization,0,1,3
+Terrorist Financing,Other,1,2,10

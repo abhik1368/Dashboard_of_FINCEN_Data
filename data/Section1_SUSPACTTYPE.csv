@@ -1,0 +1,65 @@
+RANK,SUSPICIOUS_ACTIVITY_TYPE,FILINGS_OVERALL,PERCENTAGE
+1,Minimal gaming with large transactions,15907,0.136900356
+2,Alters transactions to avoid CTR requirement,13475,0.115969844
+3,Casinos-Other,13305,0.114506773
+4,Structuring-Other,10027,0.086295334
+5,Multiple transactions below CTR threshold,8994,0.07740503
+6,Refused or avoided request for documentation,7925,0.068204899
+7,Suspicion concerning the source of funds,6983,0.060097768
+8,Two or more individuals working together,5620,0.048367386
+9,Suspicious EFT/wire transfers,3411,0.029356077
+10,Alters transaction to avoid BSA recordkeeping requirement,3112,0.026782794
+11,"Transaction with no apparent economic, business, or lawful purpose",3085,0.026550424
+12,Customer cancels transaction to avoid BSA reporting and recordkeeping requirements,2526,0.021739505
+13,Provided questionable or false documentation,2497,0.021489922
+14,Suspicious use of noncash monetary instruments,2073,0.017840852
+15,Multiple transactions below BSA recordkeeping threshold,1943,0.016722034
+16,Exchanges small bills for large bills or vice versa,1799,0.015482727
+17,Money laundering-Other,1540,0.013253696
+18,Suspicious use of counter checks or markers,1362,0.011721776
+19,Counterfeit Instrument (other),1204,0.010361981
+20,Other suspicious activities-Other,1190,0.010241493
+21,Suspicious inquiry by customer regarding BSA reporting or recordkeeping requirements,1029,Less than 1%
+22,Credit/Debit Card,755,Less than 1%
+23,Identification documentation-Other,741,Less than 1%
+24,Check,704,Less than 1%
+25,Suspicious use of multiple locations,666,Less than 1%
+26,Suspicious exchange of currencies,642,Less than 1%
+27,Single individual with multiple identities,414,Less than 1%
+28,Transaction out of pattern for customer(s),406,Less than 1%
+29,Fraud-Other,326,Less than 1%
+30,Suspicious intra-casino funds transfers,282,Less than 1%
+31,Identity theft,275,Less than 1%
+32,Suspicious use of third-party transactors (straw-man),222,Less than 1%
+33,Embezzlement/theft/disappearance of funds,201,Less than 1%
+34,"Suspicious designation of beneficiaries, assignees or joint owners",188,Less than 1%
+35,Suspicious use of multiple accounts,175,Less than 1%
+36,Inquiry about end of business day,172,Less than 1%
+37,Changes spelling or arrangement of name,145,Less than 1%
+38,Suspicion concerning the physical condition of funds,121,Less than 1%
+39,Suspected public/private corruption (domestic),114,Less than 1%
+40,Forgeries,111,Less than 1%
+41,Multiple individuals with same or similar identities,110,Less than 1%
+42,Wire transfer,57,Less than 1%
+43,Bribery or gratuity,50,Less than 1%
+44,Account takeover,46,Less than 1%
+45,"Little or no concern for product performance penalites, fees, or tax consequences",38,Less than 1%
+46,ACH,36,Less than 1%
+47,Misuse of position or self-dealing,33,Less than 1%
+48,Suspected public/private corruption (foreign),24,Less than 1%
+49,Elder financial exploitation,21,Less than 1%
+50,Mortgage fraud-Other,19,Less than 1%
+51,Consumer Loan,17,Less than 1%
+52,Unauthorized electronic intrusion,16,Less than 1%
+53,Terrorist financing-Other,13,Less than 1%
+54,Suspicious use of informal value transfer system,12,Less than 1%
+55,Suspicious receipt of government payments/benefits,10,Less than 1%
+56,Trade Based Money Laundering/Black Market Peso Exchange,8,Less than 1%
+57,Known or suspected terrorist/terrorist organization,4,Less than 1%
+57,Mass-marking,4,Less than 1%
+58,Healthcare,3,Less than 1%
+59,Misappropriation,2,Less than 1%
+60,Appraisal fraud,1,Less than 1%
+60,Business loan,1,Less than 1%
+60,Market manipulation/wash trading,1,Less than 1%
+60,Unlicensed or unregistered MSB,1,Less than 1%
