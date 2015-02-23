@@ -1,0 +1,1 @@
+An app demonstrating the use of package shinydashboard. This app is using data from http://www.fincen.gov/news_room/rp/sar_by_number.html. This app displays Section 1 of the Bank Secrecy Act Suspicious Activity Report, FINCEN Form 111 for 2012-2014.
