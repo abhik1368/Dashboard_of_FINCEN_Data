@@ -16,7 +16,9 @@ shinyServer(function(input, output) {
   suspcatTypeYear <- reactive({
     
     df <- suspcatTypebyYear %>%
-      filter(YEAR == input$year)  
+      filter(YEAR == input$year) %>%
+      filter(SUSPICIOUS_ACTIVITY_CATEGORY %in% input$suspCat)
+   # x[x$SUSPICIOUS_ACTIVITY_CATEGORY %in% input$suspCat,]
   })
   
   ADD_suspcatYear <- reactive({
@@ -42,35 +44,27 @@ shinyServer(function(input, output) {
  
   })
   
-  output$activityType <- renderChart2({
-
-    x <-  suspcatTypeYear()
-    y <- input$year
-    x <- x[x$YEAR == y, ]
-    data <- x[x$SUSPICIOUS_ACTIVITY_CATEGORY %in% input$suspCat,]
- 
-    
-    d1 <- dPlot(
-      SUSPICIOUS_ACTIVITY_TYPE ~ NUMBER_OF_FILINGS,
-      groups = "SUSPICIOUS_ACTIVITY_CATEGORY",
-      data = data,
-      type = "bar",
-      width = 1200,
-      bounds = list(x=450, y=35, width=800, height=300)
-    )
-    d1$xAxis(size = 8, type = "addMeasureAxis", outputFormat="#,")
-    d1$yAxis(size = 8, type = "addCategoryAxis", orderRule = "SUSPICIOUS_ACTIVITY_TYPE")
-    d1$legend(
-      x = 0,
-      y = 5,
-      width = 800,
-      height = 20,
-      horizontalAlign = "right"
-    )
-    return(d1)
-    
-    
-  })
+  output$activityType <- renderDataTable(suspcatTypeYear(), options = list(pageLength = 10))
+  
+  
+#   output$activityType <- renderChart2({
+# 
+#     x <-  suspcatTypeYear()
+#     y <- input$year
+#     x <- x[x$YEAR == y, ]
+#     data <- x[x$SUSPICIOUS_ACTIVITY_CATEGORY %in% input$suspCat,]
+#  
+#     
+#     a <- hPlot(NUMBER_OF_FILINGS ~ SUSPICIOUS_ACTIVITY_TYPE, data = data, type = "column")
+#     a$title(text = "Number of Filings by Suspicious Activity")
+#     a$tooltip(shared = TRUE)
+#     a$exporting(enabled = T)
+#     a$addParams(dom = "activityType")
+#     
+#     return(a)
+#     
+#     
+#   })
   
   
   ###MONTH TOTALS BY YEAR
