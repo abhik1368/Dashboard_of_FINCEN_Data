@@ -18,7 +18,6 @@ shinyServer(function(input, output) {
     df <- suspcatTypebyYear %>%
       filter(YEAR == input$year) %>%
       filter(SUSPICIOUS_ACTIVITY_CATEGORY %in% input$suspCat)
-   # x[x$SUSPICIOUS_ACTIVITY_CATEGORY %in% input$suspCat,]
   })
   
   ADD_suspcatYear <- reactive({
@@ -39,33 +38,11 @@ shinyServer(function(input, output) {
     a$tooltip(shared = TRUE)
     a$exporting(enabled = T)
     a$addParams(dom = "activityCat")
-  
     return(a)
  
   })
   
   output$activityType <- renderDataTable(suspcatTypeYear(), options = list(pageLength = 10))
-  
-  
-#   output$activityType <- renderChart2({
-# 
-#     x <-  suspcatTypeYear()
-#     y <- input$year
-#     x <- x[x$YEAR == y, ]
-#     data <- x[x$SUSPICIOUS_ACTIVITY_CATEGORY %in% input$suspCat,]
-#  
-#     
-#     a <- hPlot(NUMBER_OF_FILINGS ~ SUSPICIOUS_ACTIVITY_TYPE, data = data, type = "column")
-#     a$title(text = "Number of Filings by Suspicious Activity")
-#     a$tooltip(shared = TRUE)
-#     a$exporting(enabled = T)
-#     a$addParams(dom = "activityType")
-#     
-#     return(a)
-#     
-#     
-#   })
-  
   
   ###MONTH TOTALS BY YEAR
   output$activityMonth <- renderChart2({

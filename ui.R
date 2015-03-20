@@ -111,7 +111,7 @@ body <- dashboardBody(
                   title = "Filings by Type", width = 10, solidHeader = TRUE, status = "warning",
                   collapsible = TRUE,
                   dataTableOutput("activityType")
-                  #showOutput("activityType", "highcharts")
+                  
                 )
                 
               ),
@@ -228,7 +228,7 @@ body <- dashboardBody(
     # Fifth tab content
     tabItem(tabName = "about",
             
-            #h2("FINCEN Dashboard"),
+           
             hr(),
             h4("FINCEN data is from http://www.fincen.gov/news_room/rp/sar_by_number.html under QUARTERLY UPDATE (JANUARY 2015)"),
             h4("The data that is being displayed in this dashboard is Section 1 - Bank Secrecy Act Suspicious Activity Report 
