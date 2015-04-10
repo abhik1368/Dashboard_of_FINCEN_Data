@@ -54,8 +54,17 @@ header <- dashboardHeader(title = "FINCEN SARC",
 
 sidebar <- dashboardSidebar(
   
+#   sidebarUserPanel("User Name",
+#                    subtitle = a(href = "#", icon("circle", class = "text-success"), "Online"),
+#                    # Image file should be in www/ subdir
+#                    image = "userimage.png"
+#   ),
+  
+      sidebarSearchForm(textId = "searchText", buttonId = "searchButton",
+                        label = "Search...",  icon = shiny::icon("search")),
+  
   sidebarMenu(
-    
+
     menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
     
     menuItem("Widgets", icon = icon("th"), tabName = "widgets",
@@ -66,6 +75,9 @@ sidebar <- dashboardSidebar(
     menuItem("Data", icon = icon("table"), tabName = "data"),
     
     menuItem("About", icon = icon("book"), tabName = "about")
+    
+#     menuItem("Source code", icon = icon("file-code-o"), 
+#              href = "https://github.com/rstudio/shinydashboard/")
   )
   )
 
