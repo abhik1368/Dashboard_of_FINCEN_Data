@@ -1,5 +1,8 @@
 name: Shiny_Dashboard_of_Fincen
 account: honestybp
 server: shinyapps.io
-bundleId: 155038
-url: http://honestybp.shinyapps.io/Shiny_Dashboard_of_Fincen
+bundleId: 228133
+url: https://honestybp.shinyapps.io/Shiny_Dashboard_of_Fincen
+when: 1438131687.60823
+asMultiple: FALSE
+asStatic: FALSE
