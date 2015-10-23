@@ -1,11 +1,18 @@
 library(shiny)
 library(shinydashboard)
+library(shinyjs)
+library(DT)
 library(rCharts)
 library(rjson)
 library(dplyr)
 
 shinyServer(function(input, output) {
   
+  ### R package shinyjs example
+#   observeEvent(input$button, {
+#     toggle("hello")
+#   })
+#   
   suspcatYear <- reactive({
   
      df <- suspcatbyYear %>%
@@ -34,7 +41,7 @@ shinyServer(function(input, output) {
  
     a <- hPlot(x = "SUSPICIOUS_ACTIVITY_CATEGORY", y = "NUMBER_OF_FILINGS", data = x, type = "pie")
     a$title(text = "Number of Filings by Suspicious Activity Category")
-    a$plotOptions(width=600, height=400)
+    a$plotOptions(series = list(allowPointSelect = T))
     a$tooltip(shared = TRUE)
     a$exporting(enabled = T)
     a$addParams(dom = "activityCat")

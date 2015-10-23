@@ -1,5 +1,7 @@
 library(shiny)
 library(shinydashboard)
+library(shinyjs)
+library(DT)
 library(rCharts)
 
 
@@ -82,6 +84,12 @@ sidebar <- dashboardSidebar(
   )
 
 body <- dashboardBody(
+  ### R package shinyjs example
+#   useShinyjs(),
+#   actionButton("button", "Click me"),
+#   div(id = "hello", "Hello!"),
+#   
+  
   tags$head(tags$style(HTML('
       body > .header .logo {
                             font-family: "Bradley Hand ITC", Times, "Arial", serif;
